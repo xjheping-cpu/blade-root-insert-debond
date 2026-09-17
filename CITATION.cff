@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: blade-root-insert-debond
+message: 若本仓库对你的工作有帮助，请按下列方式引用。
+type: software
+abstract: >-
+  风电叶片叶根预埋螺套界面脱粘的有限元仿真，以及用分布式光纤在叶根内表面
+  检出该脱粘的正演模型。含轴对称分层内聚力模型与三维分层扇形块模型两套，
+  几何由配置文件给出，随仓库发布的是一套代表性算例参数。
+  Finite-element simulation of adhesive debonding at the embedded insert
+  interface in a wind turbine blade root, with a forward model for
+  distributed fibre-optic detection on the root inner surface.
+authors:
+  - name: 北京雅德士工程技术咨询服务有限公司
+    alias: ARCWIND
+license: Apache-2.0
+keywords:
+  - wind turbine blade
+  - blade root
+  - embedded insert
+  - cohesive zone model
+  - debonding
+  - distributed fibre optic sensing
+  - structural health monitoring

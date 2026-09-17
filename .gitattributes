@@ -1,0 +1,9 @@
+# 文本按平台换行，源码与配置统一 LF
+* text=auto eol=lf
+
+# 二进制：不做换行转换，也不参与 diff
+*.png binary
+*.npz binary
+*.npy binary
+*.jpg binary
+*.pdf binary

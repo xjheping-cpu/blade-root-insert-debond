@@ -1,0 +1,13 @@
+# 版本号是开发环境的实测版本。装更新的版本一般也能跑；
+# 若结果与 results/ 下的存档对不上，以自己这一套版本重算的结果为准。
+#
+#   python -m pip install -r requirements.txt
+#
+numpy==2.3.5
+scipy==1.16.0
+matplotlib==3.10.3
+pillow==12.3.0
+
+# 只有 sector3d_layered.py 用：34 万自由度的稀疏直接解。
+# 装不上时可改用 scipy.sparse.linalg.spsolve，慢很多但能跑完。
+pypardiso==0.4.7

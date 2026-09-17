@@ -1,0 +1,19 @@
+# 计算产物按需提交，中间件不提交
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# 构建中间件
+tmp/
+build/
+*.aux
+*.log
+*.out
+*.toc
+
+# 本机私有：自有机型几何不进仓库
+config/*_private.json
+config/*_oem.json
